@@ -1,0 +1,10 @@
+Para ativar o virtualenv é só rodar o comando abaixo:
+
+	
+	* No linux:
+
+		-> 'source bin/activate'
+
+	* No windows 
+	
+		-> execute o .exec na pasta bin
