@@ -1,0 +1,19 @@
+{% extends "agenda.html" %}
+
+{% block content %}
+    <form class="form-horizontal" action="/add" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1>Inserindo imagens</h1>
+        <label for="">Nome</label>
+
+        {{ form.name }}
+
+        <label for="">Descrição</label>
+        {{ form.descrition }}
+
+        <label for="">Foto</label>
+        {{  form.photo }}
+
+        <button type="submit">Enviar dados</button>
+    </form>
+{% endblock %}

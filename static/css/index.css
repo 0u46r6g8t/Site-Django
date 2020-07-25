@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+}
+
+.content-page{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.colorA:hover{
+    border-bottom: 1px solid #fdb5ff;
+    border-radius: 40px;
+}
+
+.imgLogo{
+    width: 40px;
+}
+
+.logo{
+    width: 40%;
+}

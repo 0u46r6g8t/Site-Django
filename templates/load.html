@@ -1,0 +1,14 @@
+{% extends "agenda.html" %}
+{% block content %}
+    <h2> Exibindo as imagens</h2>
+
+    <ul>
+        {% for product in products %}
+            <li hidden>{{ product.id }}</li>
+            <li>{{ product.name }}</li>
+            <li>{{ product.descrition }}</li>
+            <li><img src="/media/{{product.photo }}" width="200"></li>
+            <a href="/load/delete/{{product.id}}">Excluir imagem</a>
+        {% endfor %}
+    </ul>
+{% endblock %}
